@@ -1,9 +1,11 @@
 #todo-list {
     margin-top: 10px;
   }
+  
   #todo-input {
     margin-bottom: 5px;
   }
+  
   /* This will fade in the new added tasks using the animation property */
   .todo {
     margin-bottom: 10px;
@@ -12,6 +14,7 @@
     -moz-animation: fadeIn .5s linear forwards;
     animation: fadeIn .5s linear forwards;
   }
+  
   /* you need to define the fadeIn keyframe property for it to work */
   @keyframes fadeIn {
     to {
